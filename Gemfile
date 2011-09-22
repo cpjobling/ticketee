@@ -40,3 +40,6 @@ group :test do
   gem "launchy"
   gem 'factory_girl'
 end
+
+gem 'devise', '~> 1.4.3'
+
