@@ -47,11 +47,9 @@ fi
 # fi
 
 # If you use bundler, this might be useful to you:
-if command -v bundle && [[ -s Gemfile ]]
-then
-  bundle
-  export USE_BUNDLER=try
-  gem regenerate_binstubs
-fi
+# if command -v bundle && [[ -s Gemfile ]]
+# then
+#   bundle
+# fi
 
 

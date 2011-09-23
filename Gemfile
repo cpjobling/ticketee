@@ -43,4 +43,7 @@ group :test do
 end
 
 gem 'devise', '~> 1.4.3'
+gem 'rubygems-bundler', :group => :development
+gem 'rake', '~>0.9.2'
+
 
