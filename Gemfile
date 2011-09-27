@@ -30,6 +30,9 @@ gem 'jquery-rails'
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
+  gem 'guard-rspec'
+  gem 'guard-bundler'
+  gem 'growl'
 end
 
 
@@ -40,10 +43,13 @@ group :test do
   gem "launchy"
   gem 'factory_girl'
   gem 'email_spec'
+  gem 'spork','> 0.9.0.rc'
+  gem 'guard-spork'
 end
 
 gem 'devise', '~> 1.4.3'
 gem 'rubygems-bundler', :group => :development
 gem 'rake', '~>0.9.2'
+gem 'guard'
 
 
